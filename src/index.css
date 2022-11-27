@@ -1,4 +1,9 @@
-@import-normalize; /* bring in normalize.css styles */
+@import "modern-normalize";
+
+*{
+  margin: 0;
+  padding: 0;
+}
 
 body {
   margin: 0;
@@ -16,6 +21,4 @@ code {
 
 ul{
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
