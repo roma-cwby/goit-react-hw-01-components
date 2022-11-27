@@ -1,5 +1,6 @@
 import propTypes from 'prop-types';
 import { StatisticSection } from './Statistic.styled';
+import { getRandomHexColor } from 'utils/randomHexColor';
 
 export const Statistic = ({ title, data }) => {
   return (
@@ -28,7 +29,3 @@ Statistic.propTypes = {
     })
   ).isRequired,
 };
-
-function getRandomHexColor() {
-  return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
-}
