@@ -2,7 +2,6 @@ import styled from '@emotion/styled'
 
 export const StatisticSection = styled.section`
     width: 300px;
-    height: 100px;
     background-color: white;
     border-radius: 5px;
     overflow: hidden;
@@ -13,6 +12,7 @@ export const StatisticSection = styled.section`
         align-items: center;
         justify-content: center;
         height: 50%;
+        padding: 10px 0;
     }
 
     ul {
